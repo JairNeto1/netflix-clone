@@ -1,0 +1,31 @@
+{
+  "name": "netflix-clone",
+  "version": "1.0.0",
+  "description": "Webpage for the CappacitaDev program",
+  "main": "views/server.js",
+  "scripts": {
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JairNeto1/netflix-clone.git"
+  },
+  "keywords": [
+    "TMDB",
+    "API",
+    "Cappacit"
+  ],
+  "author": "Jair Neto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JairNeto1/netflix-clone/issues"
+  },
+  "homepage": "https://github.com/JairNeto1/netflix-clone#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "knex": "^0.95.11",
+    "mysql3": "^0.6.0",
+    "nodemon": "^2.0.12"
+  }
+}
