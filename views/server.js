@@ -2,16 +2,22 @@ const express = require('express')
 
 const server = express()
 
-//server.set('views', path.join(__dirname, 'views'))
+server.use(express.static('public'))
+server.use('/css', express.static(__dirname + 'public/css'))
+server.use('/img', express.static(__dirname + 'public/img'))
+server.use('/js', express.static(__dirname + 'public/js'))
 
-server.get('/', function (req, res) {
-  res.sendFile(__dirname + '/index.html')
-})
+server.set('views', './views')
+server.set('view engine', 'ejs')
 
-server.get('/sobre', function (req, res) {
-  res.sendFile(__dirname + '/sobre.html')
+//server.get('/', function (req, res) {
+// res.sendFile(__dirname + '/index.html')
+//})
+
+server.get('/', (req, res) => {
+  res.render('index', { page: 'index' })
 })
 
 server.listen(3000, () => {
-  console.log('Rodando')
+  console.log('Runing at localhost:3000')
 })

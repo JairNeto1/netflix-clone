@@ -43,7 +43,7 @@ header nav a:hover {
 .filme-principal {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url('/src/img/capa-house4.jpeg');
+    url('/img/capa-house4.jpeg');
   height: 400px;
   background-size: cover;
   margin-top: 1px;
@@ -102,6 +102,14 @@ header nav a:hover {
   height: 100%;
   width: 100%;
   display: block;
+
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+
+.box-filme:hover {
+  background-color: white;
+  color: black;
 }
 
 .carrosel-fimes {
