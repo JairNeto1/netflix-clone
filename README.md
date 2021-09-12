@@ -1,11 +1,5 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/JairNeto1/netflix-clone)
-![GitHub](https://img.shields.io/github/license/JairNeto1/netflix-clone)
-![Twitter URL](https://img.shields.io/twitter/url?style=social&url=https%3A%2F%2Ftwitter.com%2FJairMonteiro)
-![GitHub language count](https://img.shields.io/github/languages/count/JairNeto1/netflix-clone)
-![GitHub top language](https://img.shields.io/github/languages/top/JairNeto1/netflix-clone)
-
 <p align="left">
-<img src= "img/logo.png" width=10%
+<img src= "public/img/logo.png" width=10%
 </p>
   
   # netflix-clone
@@ -15,3 +9,18 @@ Neste projeto foi feito um clone da interface do site da NETFLIX utilizando as t
 <p align="center">
 <img src= "src/assets/tela.gif" width=100%
 </p>
+
+---
+
+  <footer>
+      <small>© 2021 Jair Neto. All rights reserved.<a href="https://www.linkedin.com/in/jair-monteiro-2a4a55aa/"
+      target="_blank"></a>
+  
+                            
+  <p align="left" >
+  
+  <a href="https://twitter.com/JairMonteiro" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="" height="30" width="40" /></a>
+  <a href="https://www.linkedin.com/in/jair-monteiro-2a4a55aa/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="" height="30" width="40" /></a>
+  <a href="your link" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/instagram.svg" alt="" height="30" width="40" /></a>
+  <a href="https://www.youtube.com/channel/UC9ciqwerp6HMTNrmMBy3PZw" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/youtube.svg" alt="" height="30" width="40" /></a>
+  </p>

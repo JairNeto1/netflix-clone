@@ -13,6 +13,7 @@ body {
   background: var(--preta);
   font-family: 'Times New Roman', Times, serif;
   color: white;
+  width: 100%;
 }
 
 header .container {
@@ -43,11 +44,14 @@ header nav a:hover {
 .filme-principal {
   font-size: 16px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
-    url('/img/capa-house4.jpeg');
+    url('https://www.themoviedb.org/t/p/w440_and_h660_face/wIBSKjYxsjXnW8IVXNtEsmxOmIV.jpg');
   height: 400px;
-  background-size: cover;
+  background-size: 100% 100%;
   margin-top: 1px;
   width: 100%;
+
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 
   display: flex;
   flex-direction: column;
