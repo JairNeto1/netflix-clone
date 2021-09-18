@@ -11,14 +11,9 @@ server.use('/js', express.static(__dirname + 'public/js'))
 server.set('views', './views')
 server.set('view engine', 'ejs')
 
-//server.get('/', function (req, res) {
-// res.sendFile(__dirname + '/index.html')
-//})
-
-server.get('/', (req, res) => {
-  res.render('index', { page: 'index' })
-})
+server.get('/', (req, res) => res.render('index', { page: 'index' }))
+server.get('/series', (req, res) => res.render('index', { page: 'series' }))
 
 server.listen(3000, () => {
-  console.log('Runing at localhost:3000')
+  console.log('Running at localhost:3000')
 })
